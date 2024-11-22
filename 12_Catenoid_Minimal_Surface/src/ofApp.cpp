@@ -4,7 +4,8 @@
 void ofApp::setup(){
     ofBackground(0, 0, 0);
     ofSetWindowPosition(0,0);
-    ofSetWindowShape(1920, 1080);
+    ofSetWindowShape(1080, 1080);
+
     catenoidSurface.setup();
     
     int digit = 42;

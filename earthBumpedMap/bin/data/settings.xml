@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<bump_Settings_xml>
+	<Bump_Color_Multiplier>0.3, 0.59, 0.11</Bump_Color_Multiplier>
+	<Bump_Limit>0.17</Bump_Limit>
+	<Sphere_Radius>292</Sphere_Radius>
+	<Sphere_Resolution>529</Sphere_Resolution>
+	<Rotation_speed>10</Rotation_speed>
+</bump_Settings_xml>
+<settings_xml>
+	<Bump_Color_Multiplier>0.0816326, 0, 0</Bump_Color_Multiplier>
+	<Bump_Limit>0.62</Bump_Limit>
+	<Sphere_Radius>200</Sphere_Radius>
+	<Sphere_Resolution>633</Sphere_Resolution>
+	<Rotation_speed>26.5</Rotation_speed>
+	<Draw_Mesh>1</Draw_Mesh>
+	<Draw_Sphere>0</Draw_Sphere>
+	<Fade_Amount>40</Fade_Amount>
+</settings_xml>

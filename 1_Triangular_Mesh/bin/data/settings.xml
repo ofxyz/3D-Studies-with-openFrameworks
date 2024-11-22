@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Project_Parameters>
+	<Quad_Mesh_Parameters>
+		<Mesh_Width>2681</Mesh_Width>
+		<Mesh_Height>2311</Mesh_Height>
+		<Mesh_Resolution>32</Mesh_Resolution>
+		<Mesh_Stroke_Size>1</Mesh_Stroke_Size>
+		<Mesh_Color>255, 255, 255, 255</Mesh_Color>
+		<Animation_Parameters>
+			<Enable_Animation>1</Enable_Animation>
+			<Animation_Amount>0, 0, 374.5</Animation_Amount>
+			<Animation_Speed>0.31237</Animation_Speed>
+			<Animation_Time_Increment>0.534916</Animation_Time_Increment>
+			<Noise_Multiplier_X>0.05</Noise_Multiplier_X>
+			<Noise_Multiplier_Y>0.05</Noise_Multiplier_Y>
+			<Animation_Resolution>0.599516, 0.617189</Animation_Resolution>
+		</Animation_Parameters>
+		<Enable_Debug>0</Enable_Debug>
+		<Fill_Mesh>1</Fill_Mesh>
+		<Mesh_Stroke_Color>255, 251, 252, 255</Mesh_Stroke_Color>
+	</Quad_Mesh_Parameters>
+</Project_Parameters>

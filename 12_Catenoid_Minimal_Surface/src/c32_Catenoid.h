@@ -129,7 +129,7 @@ public:
         /* CAM AUTO PILOT */
         //if(camAutoPilot)
         //{
-            auto noise_seed     = glm::vec3(0.304, 0.096, 0.6);
+            auto noise_seed     = glm::vec3(0.0304, 0.096, 0.06);
             auto noise_location = glm::vec3(
                                             ofMap(ofNoise(noise_seed.x, ofGetFrameNum() * camMoveSpeed), 0, 1, -camMoveRange->x, camMoveRange->x),
                                             ofMap(ofNoise(noise_seed.y, ofGetFrameNum() * camMoveSpeed), 0, 1, -camMoveRange->y, camMoveRange->y),
@@ -150,6 +150,7 @@ public:
         ofSetLineWidth(lineThickness);
        
         
+
         if(enableLights)
         {
             ofEnableLighting();
@@ -169,8 +170,8 @@ public:
         
         ofEnableDepthTest();
        
-        ofSetColor(255,0,0);
-        ofDrawSphere(this->log_list.back(), 2);
+        //ofSetColor(255,0,0);
+        //ofDrawSphere(this->log_list.back(), 2);
         
         //ofNoFill();
         ofPushMatrix();

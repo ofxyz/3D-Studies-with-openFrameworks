@@ -223,12 +223,12 @@ void ofApp::update(){
         }
         
         if(fftLive.getAveragePeak() * audioGain > 0.7) {
-            gFxBtns[11] = true;
-            gFxBtns[12] = true;
+            //gFxBtns[11] = true;
+            //gFxBtns[12] = true;
             //
         }else{
-            gFxBtns[11] = false;
-            gFxBtns[12] = false;
+            //gFxBtns[11] = false;
+           // gFxBtns[12] = false;
             //gFxBtns[8] = false;
         }
         
@@ -243,11 +243,11 @@ void ofApp::update(){
         }
         
         if(fftLive.getAveragePeak() * audioGain > 0.23) {
-            gFxBtns[11] = false;
-            gFxBtns[11] = false;
+           // gFxBtns[11] = false;
+           // gFxBtns[11] = false;
         }else{
-            gFxBtns[11] = true;
-            gFxBtns[11] = true;
+            //gFxBtns[11] = true;
+            //gFxBtns[11] = true;
         }
         
         if(gEnableAutoPilotCam)
@@ -463,16 +463,16 @@ void ofApp::initPostProcessing() {
     post.getPasses().clear();
     post.init(ofGetWidth(), ofGetHeight());
     post.createPass<BloomPass>()->setEnabled(false);
-    post.createPass<BleachBypassPass>()->setEnabled(false);
-    post.createPass<ContrastPass>()->setEnabled(false);
+    //post.createPass<BleachBypassPass>()->setEnabled(false);
+    //post.createPass<ContrastPass>()->setEnabled(false);
     post.createPass<ConvolutionPass>()->setEnabled(false);
     //post.createPass<DofPass>()->setEnabled(false);
     //post.createPass<DofAltPass>()->setEnabled(false);
     //post.createPass<EdgePass>()->setEnabled(false);
     post.createPass<FxaaPass>()->setEnabled(false);
-    post.createPass<FakeSSSPass>()->setEnabled(false);
+    //post.createPass<FakeSSSPass>()->setEnabled(false);
     //post.createPass<GodRaysPass>()->setEnabled(false);
-    post.createPass<HorizontalTiltShifPass>()->setEnabled(false);
+    //post.createPass<HorizontalTiltShifPass>()->setEnabled(false);
     post.createPass<KaleidoscopePass>()->setEnabled(false);
     post.createPass<NoiseWarpPass>()->setEnabled(false);
     post.createPass<LimbDarkeningPass>()->setEnabled(false);
@@ -480,8 +480,8 @@ void ofApp::initPostProcessing() {
     post.createPass<RGBShiftPass>()->setEnabled(false);
     post.createPass<RimHighlightingPass>()->setEnabled(false);
     post.createPass<SSAOPass>()->setEnabled(false);
-    post.createPass<ToonPass>()->setEnabled(false);
-    post.createPass<VerticalTiltShifPass>()->setEnabled(false);
+    //post.createPass<ToonPass>()->setEnabled(false);
+    //post.createPass<VerticalTiltShifPass>()->setEnabled(false);
     post.createPass<ZoomBlurPass>()->setEnabled(false);
 }
 //--------------------------------------------------------------

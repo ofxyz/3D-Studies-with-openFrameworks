@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<setting_xml>
+	<Light_Pos>0, 295.918, 244.898</Light_Pos>
+	<Light_Boom>0</Light_Boom>
+	<Fly_Movement_Speed>0.0024</Fly_Movement_Speed>
+	<Fly_Movement_Range>367.347, 397.959, 734.694</Fly_Movement_Range>
+	<Fly_wing_Speed>9.385</Fly_wing_Speed>
+</setting_xml>

@@ -35,7 +35,7 @@ public:
         if(top.size() > 0)
             return top[0];
         else
-            return;
+            return glm::vec3(0);
     }
     
     void setup() {

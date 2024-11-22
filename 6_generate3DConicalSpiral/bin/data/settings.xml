@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Conical_Spiral_Parameters>
+	<group>
+		<Number_of_Points>521</Number_of_Points>
+		<Cone_Position>0, 0, 173.955</Cone_Position>
+		<Spiral_Radius>60</Spiral_Radius>
+		<Spiral_Frequency>0.770545</Spiral_Frequency>
+		<Spiral_Height>100</Spiral_Height>
+		<Spiral_Thickness>3</Spiral_Thickness>
+		<Spiral_Color>255, 255, 255, 255</Spiral_Color>
+		<Animate_Y_Axis>1</Animate_Y_Axis>
+		<Animate_Frequency>1</Animate_Frequency>
+		<Show_Spiral_Path>1</Show_Spiral_Path>
+		<Show_Bounding_Box>1</Show_Bounding_Box>
+		<Show_Shape_Axes>1</Show_Shape_Axes>
+		<Show_Objects_On_Path>0</Show_Objects_On_Path>
+	</group>
+</Conical_Spiral_Parameters>
